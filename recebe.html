@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="author"content="LM Criações">
+  <meta name="description" content="Pagina Criada Para Modelo De Uso ">
+  <meta name="keywords" content="Estética, saúde e beleza">
+  <meta http-equiv="refresh"content="18888">
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essence Estética - Contato</title>
+  <link rel="stylesheet"type="text/css" href="recebe.css">
+  <script>language="Javascript"
+
+function validar(){
+
+          if(document.contato.Nome.value == ""){
+           alert("Nome é Obrigatorio");
+           document.contato.Nome.focus();
+           return false;}
+
+           if(document.contato.Email.value == ""){
+           alert("Email é Obrigatorio");
+           document.contato.Email.focus();
+           return false;}
+}
+</script>
+
+</head>
+  <body>
+  <header>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="precos.html">Preços</a></li>
+              <li><a href="recebe.html">Contato</a></li>
+              <li><a href="beleza.html">Artigos</a></li>
+              <li>    
+    <form class="pesquisa">
+            <input class="pesquisa" type="search" id="texto" placeholder="Pesquise No Site" align="center"list="historico">
+            
+            <datalist id="historico" >
+            <option value="Promoções"></option>
+            <option value="Preços Mensais"></option>
+            <option value="Artigos"></option>
+            <option value="Redes Socias"></option>
+</datalist>
+          </form>
+    </li>
+            </ul>
+          </nav>
+       </div>
+
+     <div class="container"><img src="https://holoscursoseterapias.com.br/wp-content/uploads/2019/02/estetica-holistica.jpg"height="325vh"width="1262vw">
+          <h1 class="t2">Entre Em Contato Conosco </h1>
+        </div>
+        </header>
+
+<form name="contato" action="recebe.html" onsubmit="return validar()">
+   <label>Nome:</label><br>
+       <input class="nome" type="text" name="Nome" size="35" maxlength="30" placeholder="Digite Seu Nome"><br><br>
+
+       <label>Email:</label><br>
+       <input class="email" type="text" name="Email" size="35" maxlength="30" placeholder="Digite Seu Email"><br><br>
+
+      <label >Quais Novidades De Serviços e Produtos Você Gostaria De Receber:</label><br><br>
+      <input type="checkbox" name="CDP"value="Cuidados De Pele"/><label>Cuidados De Pele</label><br><br>
+      <input type="checkbox" name="Peso"value="Redução De Peso"/><label>Redução De Peso</label><br><br>
+      <input type="checkbox" name="MAGu"value="Micro Agulhamento"/><label>Micro Agulhamento</label><br><br>
+      <input type="checkbox" name="TSV"value="Tudo Sobre Vazinhos"/><label>Tudo Sobre Vasinhos</label><br><br>
+      <input type="checkbox" name="Medidas"value="Eliminação De Medidas"/><label>Eliminando Medidas</label><br><br>
+
+      <label>Gostaria De Receber Promoções Por Email?</label><br><br>
+      <input type="radio" name="Promos" value="S"checked="checked"/><label>SIM</label><br><br>
+      <input type="radio" name="Promos" value="N"/><label>NÃO</label><br><br>
+
+      <label>Como Ficou Sabendo Sobre Nós?</label><br><br>
+      <select name="Conheceu">
+       <option value="Goo">Google</option>
+       <option value="Face">Facebook</option>
+       <option value="Insta"selected>Instagram</option>
+       <option value="Indi">Indicação</option>
+       <option value="Jorn">Jornais</option>
+       <option value="Others">Outros</option>
+     </select><br><br>
+
+<label class="mande">&nbsp;&nbsp;&nbsp;Nos Mande Sua Opinião</label><br><br>
+<textarea name="Comentar" cols="30" rows="10"></textarea><br><br>
+<input type="submit" class="sub" name="Enviar" value="Enviar">
+<input type="reset"  class="res" name="Limpar" value="Limpar">
+</form>
+
+<div id="foto">
+<img class = "fta"  src="https://www.nutren.com.br/beauty/images/default-source/home_nbeauty/bem-estar.png" alt="saúde" title="Foto De Saúde e Beleza"></div>
+
+
+<div id="footer">
+<footer>
+    
+    <h2>Essence Estética Avançada</h2>
+     <figcaption>Pronta Pra Mudar De Vida?</figcaption><br>
+    <img class="essen"src="logo.jpg" alt="foto Estética" title="Logotipo Da Empresa"><h3><b>&reg;Todos Os Direitos Reservados - Essence Estética e Beleza&copy;<br> Visitem Nossas Redes Sociais
+    <div classe="rs"><a href="https://facebook.com" target="self"><href="https://facebook.com" target="self"><img class="fc2" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHbqg2fynYugrM_QdRIyC-Jc9xxh-SoRx2w&usqp=CAU align="center"></a>
+     <a href="https://instagram.com" target="self"><img class="insta2" src="insta.png"align="center">
+ <a href="https://web.whatsapp.com"target="self"></a><img class="zap" src="https://uploaddeimagens.com.br/images/003/076/588/full/zap.png?1612931371" align="center"></a><b></div>
+ </footer>
+
+
+  </body>
+</html>

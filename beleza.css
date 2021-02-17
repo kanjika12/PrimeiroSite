@@ -1,0 +1,605 @@
+*{
+
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    }
+
+.gif{
+
+opacity:80;    
+position:relative;
+z-index:-1;
+margin:4em auto auto -10em;
+    
+}
+
+
+body{
+
+background-color: bisque;
+font-family:'Open Sans',Roboto,Arial,Helvetica,sans-serif;
+width:98.5vw;
+margin:0
+padding:0;
+}
+
+.container{
+    
+position:relative;
+opacity:60%;
+z-index:-20;
+top:-6.5em;
+width:98.5vw;
+height:50vh;
+display:inline;
+}
+
+img {
+    max-width: 100vw;
+    max-height:50vh;
+ }
+ 
+ *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ 
+     
+     .container {
+    max-width: 60rem;
+    margin: 0 auto 0 auto;
+ }
+
+
+article{
+
+    border: 2em solid salmon;
+    background-color: rgb(12, 27, 43);
+    color: thistle;
+    padding: 1em;
+    margin: 3em 0 0 1em;
+    margin-right:1.5em;
+    font-weight: bold;
+    border-radius: 5em 1em 3em;
+    width:auto;
+    text-align:justify;
+    
+        }
+
+.mtx{
+            cursor: default;
+            top:221.5%;
+            color:#660033;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            background-color: #ff99bb;
+            display: block;
+            line-height: 1.66;
+            border-radius: 10px 10px;
+            opacity: 70%;
+ }    
+
+ #footer {
+    
+    font-size: 1.3em;
+    border-radius: 1em 1em;
+    text-align: center;
+    font-family: opensans-bold,Arial,sans-serif;
+    cursor: default;
+    width:98.5vw;
+    margin-top:-6em;
+    height: auto;
+    position:relative;
+    background-color: #260033;
+    color:thistle;
+  }
+
+.essen{
+  width: 12vw;
+  height: 7vh;
+  border-radius: 5px 10px;
+}
+
+
+footer:hover{
+  opacity:1.0;
+  color:#80002a;
+  transition: 2s;
+
+}
+
+.fc2{
+width: 3.2vw;
+top: 0.111em;
+position: relative;
+
+
+}
+
+.insta2{
+width: 5vw;
+position: relative;
+top: 0.140em;
+
+}
+
+.zap{
+    
+width: 3.4vw;
+top: 0.120em;
+position: relative;
+    
+}
+
+
+
+.ex1:after,.ex2:after,.ex3:after,.ex4:after,.ex5:after,.ex6:after{
+
+    content: "✷";
+  }
+
+
+        .fto{
+
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:100%;
+            margin: -22.7em auto auto 3em;
+            width: 91vw;
+            height: 30vh;
+            opacity: 30%;
+            border-radius: 3em 3em;}
+
+            .cont{
+                font:1.3em/3rem 'Open Sans',Roboto,Arial,Helvetica,sans-serif;
+                background-color:#993366;
+                border-radius: 21em 1em 21em 6em;
+                text-transform: uppercase;
+                text-shadow: 1px -1px 15px #800040, 1px 1px 20px #bae0f1ab, -1px 1px #ff3333;
+                font-weight: 900;
+                text-decoration: none;
+                color: black;
+                }
+                
+                .cont:hover{
+                
+                  color: pink;
+                }   
+
+        h5:hover, .ex1:hover, .ex2:hover{
+
+            color: chocolate;
+        }
+
+
+        header{
+            width: 100%;
+
+        }
+
+.menu{ width: 90%; min-width: 320px; margin:0 auto;
+
+}
+
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.menu ul li{
+
+    line-height: 1em;
+    left: -2.6em;
+    position: relative;
+    margin:4em auto auto auto;
+    letter-spacing: 0.2em;
+    word-spacing: 0.6em;
+    border-radius: 2em 1em;
+    height: 5vh;
+    margin-left: 01em;
+
+}
+
+.menu ul li a {
+
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1em 1em;
+  background-color: #260033;
+  width: 20.3vw;
+  max-width: 31vw;
+  font-size: 0.5em;
+  font-weight: 900;
+  line-height: 2.5em;
+  text-align: center;
+  margin-right: -0.4em;
+  color:thistle;
+  left:4em;
+  position:relative;
+  margin:-4em 0em 0em 0em;
+  text-transform:uppercase;
+  word-spacing: 1em;
+  margin-bottom: 1em;
+  text-decoration:underline;
+}
+
+          .t2{
+            margin-top:-2.25em;
+            cursor: default;
+            font-size: 1.5em;
+            word-spacing: 0.1em;
+            letter-spacing: 0.1em;
+            position:relative;
+            left:0em;
+            transform: skewX(-1deg);
+            border: 0.1em inset snow;
+            border-left-color: pink;
+            border-right-color: pink;
+            border-top-color:#ff3399;
+            border-bottom-color:#ff3399;
+            border-width:small;
+            background:radial-gradient(circle,#ff6666 14%, #993366 31%,#ff99bb 67%);
+            -webkit-text-fill-color:transparent;
+            -webkit-background-clip:text;
+            font-variant: small-caps;
+            text-align: center;
+            border-radius: 1em;
+            width: 98.5vw;
+            
+          }
+
+     
+    .textos2{
+                
+    float:left;
+    display:inline-block;
+     }
+
+  
+   .menu ul li a:hover{
+
+    color:#ec85b9;
+    background-color:#800040;
+  }
+
+  a:link, a:visited,a:active{
+
+  text-decoration:none;
+  color: #ff99bb;
+  font-style: oblique;
+  }  
+      
+  .menu ul li a:focus{
+      
+      background-color:#ff99bb;
+      
+  }
+
+      #texto {
+          width: auto;
+          height: auto;
+          display:inline-block;
+          font-size: 0.8em;
+          position: relative;
+          color: snow;
+          background-color: #260033;
+          border-radius: 1em 1em;
+          top:15em;
+          margin-left:-20em;
+      }
+
+#texto:focus{
+  border:solid 1em none;
+}
+.pesquisa{
+
+  text-align: center;
+  font-style: italic;
+  position:relative;
+  top:-10em;
+}
+
+    input{
+      color:#993366;
+      border-color: #800040;
+      font-weight: 900;
+      position: relative;
+      border-radius: 1em 1em;
+      left:0.2em;
+      }
+      
+    input:hover,select:hover,textarea:hover{
+    
+    border:0.4em solid #993366;}
+    
+    
+    input:focus,select:focus,textarea:focus{
+    background-color: #ff99bb;
+    
+    }
+    
+    .fundo_article{
+    
+background-repeat: no-repeat;
+background-attachment: fixed; 
+opacity:30%;
+border-radius: 1em 1em;
+top:-6.85em;
+position:relative;
+z-index:-20;
+
+}
+
+
+    .fundo_article2{
+    
+background-repeat: no-repeat;
+background-attachment: fixed; 
+opacity:30%;
+border-radius: 1em 1em;
+top:-6.85em;
+position:relative;
+z-index:-20;
+
+}
+  
+  .uno{
+      position:relative;
+      margin-top:-13em;
+      
+  }
+  
+  
+    .ex1{
+    border-radius:  1em 0.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 0.2em inset salmon;
+    background-color: rgb(12, 27, 43);
+    word-spacing: 0.1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 0.3em;
+    color: thistle;
+    text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+    margin:-19em 0 0 3em;
+    text-align:center;
+    cursor: default;
+    }
+    
+            .h1{
+            border-radius:1em 0.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            border: 0.2em inset salmon;
+            background-color: rgb(12, 27, 43);
+            align-items: center;
+            word-spacing: 0.5em;
+            font-size: 0.5em;
+            letter-spacing: 0.2em;
+            padding: 0.3em;
+            color: thistle;
+            text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+            margin:-30em auto auto 6.5em;
+
+        }
+  
+ .duos{
+
+      position:relative;
+      margin-top:1em;
+  }
+     
+  .ex2{
+        border-radius:  1em 0.5em;
+        text-transform: uppercase;
+        display: inline-block;
+        border: 0.2em inset salmon;
+        background-color: rgb(12, 27, 43);
+        word-spacing: 0.1em;
+        font-size: 1em;
+        letter-spacing: 0.0em;
+        padding: 0.3em;
+        color: thistle;
+        text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+        margin:2em auto 0 3em;
+        text-align:center;
+        cursor: default;
+        }
+        
+            .h2{
+            border-radius:1em 0.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            border: 0.2em inset salmon;
+            background-color: rgb(12, 27, 43);
+            align-items: center;
+            word-spacing: 0.5em;
+            font-size: 0.5em;
+            letter-spacing: 0.2em;
+            padding: 0.3em;
+            color: thistle;
+            text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+            margin:1em auto auto 6.5em;
+
+        }   
+        
+        
+    .tres{
+        
+        position:relative;
+      margin-top:1em;
+        
+    }    
+                  .ex3{
+    border-radius:  1em 0.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 0.2em inset salmon;
+    background-color: rgb(12, 27, 43);
+    word-spacing: 0.1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 0.3em;
+    color: thistle;
+    text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+    margin:2em 0 0 3em;
+    text-align:center;
+    cursor: default;
+    
+    }
+    
+                .h3{
+            border-radius:1em 0.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            border: 0.2em inset salmon;
+            background-color: rgb(12, 27, 43);
+            align-items: center;
+            word-spacing: 0.5em;
+            font-size: 0.5em;
+            letter-spacing: 0.2em;
+            padding: 0.3em;
+            color: thistle;
+            text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+            margin:1em auto auto 6.5em;
+
+        }   
+        
+        
+             
+    .quatro{
+        
+        position:relative;
+      margin-top:1em;
+        
+    }    
+                  .ex4{
+    border-radius:  1em 0.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 0.2em inset salmon;
+    background-color: rgb(12, 27, 43);
+    word-spacing: 0.1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 0.3em;
+    color: thistle;
+    text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+    margin:2em 0 0 3em;
+    text-align:center;
+    cursor: default;
+    
+    }
+    
+                .h4{
+            border-radius:1em 0.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            border: 0.2em inset salmon;
+            background-color: rgb(12, 27, 43);
+            align-items: center;
+            word-spacing: 0.5em;
+            font-size: 0.5em;
+            letter-spacing: 0.2em;
+            padding: 0.3em;
+            color: thistle;
+            text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+            margin:1em auto auto 6.5em;
+
+        }  
+        
+            .cinco{
+        
+        position:relative;
+      margin-top:1em;
+        
+    }    
+                  .ex5{
+    border-radius:  1em 0.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 0.2em inset salmon;
+    background-color: rgb(12, 27, 43);
+    word-spacing: 0.1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 0.3em;
+    color: thistle;
+    text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+    margin:0em 0 0 3em;
+    text-align:center;
+    cursor: default;
+    
+    }
+    
+                .h5{
+            border-radius:1em 0.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            border: 0.2em inset salmon;
+            background-color: rgb(12, 27, 43);
+            align-items: center;
+            word-spacing: 0.5em;
+            font-size: 0.5em;
+            letter-spacing: 0.2em;
+            padding: 0.3em;
+            color: thistle;
+            text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+            margin:1em auto auto 6.5em;
+
+        }   
+          
+          
+          
+                      .six{
+        
+        position:relative;
+      margin-top:1em;
+        
+    }    
+                  .ex6{
+    border-radius:  1em 0.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 0.2em inset salmon;
+    background-color: rgb(12, 27, 43);
+    word-spacing: 0.1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 0.3em;
+    color: thistle;
+    text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+    margin:2em 0 0 3em;
+    text-align:center;
+    cursor: default;
+    
+    }
+    
+                    .h6{
+            border-radius:1em 0.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            border: 0.2em inset salmon;
+            background-color: rgb(12, 27, 43);
+            align-items: center;
+            word-spacing: 0.5em;
+            font-size: 0.5em;
+            letter-spacing: 0.2em;
+            padding: 0.3em;
+            color: thistle;
+            text-shadow:0.2em 0.2em 0.4em #ff3399, 0.1em 0.1em 0.2em;
+            margin:1em auto auto 6.5em;
+
+        }  
+    
+         .textos{
+         position:relative;
+         top:-17em;
+         
+         }  
